@@ -30,7 +30,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.9;
+  opacity: 0.8;
   visibility: hidden;
 }
 .menu.show {
@@ -60,6 +60,7 @@
 }
 .menu-branding {
   background: #444;
+  opacity: 0;
   transform: translate3d(0, 100%, 0);
   transition: all 0.5s ease-out;
 }
